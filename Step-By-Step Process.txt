@@ -1,0 +1,70 @@
+Back-End
+---------
+
+Step 1:
+Create the new database in MySQL
+
+Step 2:
+change the database name what you created in MySQL, username and password in "application.properties"
+
+Step 3:
+Run the "Application" in Springboot
+
+Step 4:
+Open "Postman API" and change the CRUD operation into "POST"
+this is used for get into the login page for  "ADMIN", "HOTELMANAGER", and "CUSTOMER"
+
+Step 4.1:
+Do the json process one-by-one in postman in "POST" for "ADMIN" role
+    {
+        
+        "name": "balaji",
+        "email": "admin@gmail.com",
+        "password": "Balaji",
+        "role": "ADMIN"
+    },
+
+Step 4.2:
+Do the json process one-by-one in postman in "POST" for "HOTELMANAGER" role
+	{
+        
+        "name": "balaji",
+        "email": "manager@gmail.com",
+        "password": "Balaji",
+        "role": "HOTELMANAGER"
+    },
+
+	{
+
+Step 4.3:
+Do the json process one-by-one in postman in "POST" for "CUSTOMER" role
+        
+        "name": "balaji",
+        "email": "customer@gmail.com",
+        "password": "Balaji",
+        "role": "CUSTOMER"
+    }
+
+
+
+Front-End
+---------
+
+Step 1:
+npm run dev
+
+Step 2:
+(Ctrl + left click) on the below link on visual studio terminal
+http://localhost:5173/ 
+
+Step 3:
+This login page is common for all the "ADMIN", "HOTELMANAGER", and "CUSTOMER".
+
+Step 4:
+Enter Admin user valid Email and Password.
+Enter HotelManager user valid Email and Password.
+Enter Customer user valid Email and Password.
+
+
+
+
